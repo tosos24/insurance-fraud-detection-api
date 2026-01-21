@@ -1,4 +1,4 @@
-\# Insurance Claim Fraud Detection API
+\ Insurance Claim Fraud Detection API
 
 
 
@@ -10,7 +10,7 @@ A machine learning system for detecting fraudulent insurance claims using CatBoo
 
 
 
-\## Project Overview
+\ Project Overview
 
 
 
@@ -36,11 +36,11 @@ Key Highlights:
 
 
 
-\## Model Performance
+\ Model Performance
 
 
 
-\### Model Comparison
+\ Model Comparison
 
 
 
@@ -60,7 +60,7 @@ Winner: CatBoost with 85.38% ROC-AUC on test set
 
 
 
-\### Why CatBoost Won
+\ Why CatBoost Won
 
 
 
@@ -76,11 +76,11 @@ Winner: CatBoost with 85.38% ROC-AUC on test set
 
 
 
-\## Key Insights
+\ Key Insights
 
 
 
-\### Most Important Features for Fraud Detection
+\ Most Important Features for Fraud Detection
 
 
 
@@ -116,7 +116,7 @@ Winner: CatBoost with 85.38% ROC-AUC on test set
 
 
 
-\### Data Insights
+\ Data Insights
 
 
 
@@ -134,7 +134,7 @@ Winner: CatBoost with 85.38% ROC-AUC on test set
 
 
 
-\## Project Structure
+\ Project Structure
 
 
 
@@ -198,11 +198,11 @@ insurance-fraud-detection/
 
 
 
-\## Quick Start
+\ Quick Start
 
 
 
-\### Prerequisites
+\ Prerequisites
 
 
 
@@ -260,11 +260,11 @@ uvicorn api.main:app --reload
 
 
 
-\## API Usage
+\ API Usage
 
 
 
-\### Make a Prediction
+\ Make a Prediction
 
 
 
@@ -340,7 +340,7 @@ Example Response:
 
 
 
-\### Risk Score Interpretation
+\ Risk Score Interpretation
 
 
 
@@ -356,11 +356,11 @@ Example Response:
 
 
 
-\## Technical Approach
+\ Technical Approach
 
 
 
-\### Dual Preprocessing Pipelines
+\ Dual Preprocessing Pipelines
 
 
 
@@ -404,7 +404,7 @@ Why This Matters:
 
 
 
-\### Model Training Strategy
+\ Model Training Strategy
 
 
 
@@ -422,7 +422,7 @@ Why This Matters:
 
 
 
-\## Tech Stack
+\ Tech Stack
 
 
 
@@ -468,7 +468,7 @@ Visualization:
 
 
 
-\## Dataset
+\ Dataset
 
 
 
@@ -506,7 +506,7 @@ Key Features:
 
 
 
-\## Running the Notebooks
+\ Running the Notebooks
 
 
 
@@ -530,7 +530,7 @@ Each notebook is self-contained with detailed explanations and visualizations.
 
 
 
-\## Future Improvements
+\ Future Improvements
 
 
 
@@ -554,36 +554,39 @@ Each notebook is self-contained with detailed explanations and visualizations.
 
 
 
-\## License
+\ License
 
 
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License.
 
 
 ---
 
 
 
-\## Screenshots
+\ Screenshots
 
 
 
-\### API Documentation
-
-!\[API Docs](screenshots/api\_docs.png)
+\ API Documentation
 
 
-
-\### Prediction Example
-
-!\[Prediction](screenshots/prediction\_example.png)
+<img width="1896" height="865" alt="Screenshot 2026-01-18 000628" src="https://github.com/user-attachments/assets/d26d7f9c-c9f6-4703-9fcf-9d6085eaf76a" />
 
 
 
-\### Model Comparison
+\ Prediction Example
 
-!\[Model Comparison](screenshots/model\_comparison.png)
+
+<img width="1898" height="867" alt="Screenshot 2026-01-18 014344" src="https://github.com/user-attachments/assets/4d3312de-585b-4592-9ada-11d104267746" />
+
+
+
+\ Model Comparison
+
+
+<img width="1688" height="598" alt="Screenshot 2026-01-20 054236" src="https://github.com/user-attachments/assets/f146d981-9b95-434f-9709-e7f168d623b9" />
 
 
 ---
