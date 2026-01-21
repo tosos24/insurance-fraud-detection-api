@@ -1,4 +1,4 @@
-\ Insurance Claim Fraud Detection API
+ Insurance Claim Fraud Detection API
 
 
 
@@ -10,7 +10,7 @@ A machine learning system for detecting fraudulent insurance claims using CatBoo
 
 
 
-\ Project Overview
+ Project Overview
 
 
 
@@ -36,11 +36,11 @@ Key Highlights:
 
 
 
-\ Model Performance
+ Model Performance
 
 
 
-\ Model Comparison
+ Model Comparison:
 
 
 
@@ -60,7 +60,7 @@ Winner: CatBoost with 85.38% ROC-AUC on test set
 
 
 
-\ Why CatBoost Won
+ Why CatBoost Won:
 
 
 
@@ -76,11 +76,11 @@ Winner: CatBoost with 85.38% ROC-AUC on test set
 
 
 
-\ Key Insights
+ Key Insights
 
 
 
-\ Most Important Features for Fraud Detection
+ Most Important Features for Fraud Detection:
 
 
 
@@ -95,8 +95,7 @@ Winner: CatBoost with 85.38% ROC-AUC on test set
 2\. Base Policy
 
 &nbsp;  - Type of insurance policy held
-
-&nbsp;  
+  
 
 3\. Year
 
@@ -116,7 +115,7 @@ Winner: CatBoost with 85.38% ROC-AUC on test set
 
 
 
-\ Data Insights
+ Data Insights:
 
 
 
@@ -134,7 +133,7 @@ Winner: CatBoost with 85.38% ROC-AUC on test set
 
 
 
-\ Project Structure
+ Project Structure
 
 
 
@@ -198,11 +197,11 @@ insurance-fraud-detection/
 
 
 
-\ Quick Start
+ Quick Start
 
 
 
-\ Prerequisites
+ Prerequisites:
 
 
 
@@ -212,7 +211,7 @@ insurance-fraud-detection/
 
 
 
-\### Installation
+ Installation:
 
 
 
@@ -260,11 +259,11 @@ uvicorn api.main:app --reload
 
 
 
-\ API Usage
+ API Usage
 
 
 
-\ Make a Prediction
+ Make a Prediction:
 
 
 
@@ -278,43 +277,43 @@ Example Request:
 
 curl -X POST "http://localhost:8000/predict" \\
 
-&nbsp; -H "Content-Type: application/json" \\
+ -H "Content-Type: application/json" \\
 
-&nbsp; -d '{
+ -d '{
 
-&nbsp;   "Month": "Dec",
+   "Month": "Dec",
 
-&nbsp;   "WeekOfMonth": 5,
+   "WeekOfMonth": 5,
 
-&nbsp;   "DayOfWeek": "Wednesday",
+   "DayOfWeek": "Wednesday",
 
-&nbsp;   "Make": "Honda",
+   "Make": "Honda",
 
-&nbsp;   "AccidentArea": "Urban",
+   "AccidentArea": "Urban",
 
-&nbsp;   "Sex": "Male",
+   "Sex": "Male",
 
-&nbsp;   "Age": 21,
+   "Age": 21,
 
-&nbsp;   "Fault": "Policy Holder",
+   "Fault": "Policy Holder",
 
-&nbsp;   "PolicyType": "Sport - Liability",
+   "PolicyType": "Sport - Liability",
 
-&nbsp;   "VehicleCategory": "Sport",
+   "VehicleCategory": "Sport",
 
-&nbsp;   "VehiclePrice": "more than 69000",
+   "VehiclePrice": "more than 69000",
 
-&nbsp;   "PoliceReportFiled": "Yes",
+   "PoliceReportFiled": "Yes",
 
-&nbsp;   "WitnessPresent": "No",
+   "WitnessPresent": "No",
 
-&nbsp;   "PastNumberOfClaims": "none",
+   "PastNumberOfClaims": "none",
 
-&nbsp;   "AgeOfVehicle": "3 years",
+   "AgeOfVehicle": "3 years",
 
-&nbsp;   ... (33 fields total)
+   ... (33 fields total)
 
-&nbsp; }'
+ }'
 
 ```
 
@@ -326,13 +325,13 @@ Example Response:
 
 {
 
-&nbsp; "fraud\_probability": 0.78,
+ "fraud_probability": 0.78,
 
-&nbsp; "fraud\_risk\_score": 78,
+ "fraud_risk_score": 78,
 
-&nbsp; "prediction": "Fraud",
+ "prediction": "Fraud",
 
-&nbsp; "confidence": "High"
+ "confidence": "High"
 
 }
 
@@ -340,7 +339,7 @@ Example Response:
 
 
 
-\ Risk Score Interpretation
+ Risk Score Interpretation:
 
 
 
@@ -356,11 +355,11 @@ Example Response:
 
 
 
-\ Technical Approach
+ Technical Approach
 
 
 
-\ Dual Preprocessing Pipelines
+ Dual Preprocessing Pipelines:
 
 
 
@@ -404,7 +403,7 @@ Why This Matters:
 
 
 
-\ Model Training Strategy
+ Model Training Strategy:
 
 
 
@@ -422,7 +421,7 @@ Why This Matters:
 
 
 
-\ Tech Stack
+ Tech Stack
 
 
 
@@ -468,7 +467,7 @@ Visualization:
 
 
 
-\ Dataset
+ Dataset
 
 
 
@@ -506,7 +505,7 @@ Key Features:
 
 
 
-\ Running the Notebooks
+ Running the Notebooks
 
 
 
@@ -530,7 +529,7 @@ Each notebook is self-contained with detailed explanations and visualizations.
 
 
 
-\ Future Improvements
+ Future Improvements
 
 
 
@@ -554,7 +553,7 @@ Each notebook is self-contained with detailed explanations and visualizations.
 
 
 
-\ License
+ License
 
 
 
@@ -569,21 +568,21 @@ This project is licensed under the MIT License.
 
 
 
-\ API Documentation
+ API Documentation
 
 
 <img width="1896" height="865" alt="Screenshot 2026-01-18 000628" src="https://github.com/user-attachments/assets/d26d7f9c-c9f6-4703-9fcf-9d6085eaf76a" />
 
 
 
-\ Prediction Example
+ Prediction Example
 
 
 <img width="1898" height="867" alt="Screenshot 2026-01-18 014344" src="https://github.com/user-attachments/assets/4d3312de-585b-4592-9ada-11d104267746" />
 
 
 
-\ Model Comparison
+ Model Comparison
 
 
 <img width="1688" height="598" alt="Screenshot 2026-01-20 054236" src="https://github.com/user-attachments/assets/f146d981-9b95-434f-9709-e7f168d623b9" />
